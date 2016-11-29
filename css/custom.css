@@ -12,6 +12,17 @@ a {
     transition: all .35s;
 }
 
+.freebirdFormeditorViewResponsesSummaryChartContainer {
+    overflow-x: scroll;
+    overflow-y: none;
+}
+
+div #centercircle {
+    min-height: 10em;
+    display: table-cell;
+    vertical-align: middle;
+}
+
 a:hover,
 a:focus {
     color: forestgreen;
