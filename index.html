@@ -1,22 +1,153 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-	<title>Project Name IDKK</title>
-	<link rel="stylesheet" href="styles.css">
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <title>Predicting Oscar Winners With Machine Learning</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS: You can use this stylesheet to override any Bootstrap styles and/or apply your own styles -->
+    <link href="css/custom.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom Fonts from Google -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    
 </head>
 
 <body>
 
-	<h1>INFO 370: Introduction to Data Science - Project Name idk what that is</h1>
-	<p>Brooks Lobe, Graham Kelly, Kimiko Farmer, William Menten-Weil</p>
+    <!-- Navigation -->
+    <nav id="siteNav" class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Logo and responsive toggle -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#main">
+                	<span class="glyphicon glyphicon-stats"></span> 
+                	INFO 370
+                </a>
+            </div>
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active">
+                        <a href="#main">Main</a>
+                    </li>
+                    <li>
+                        <a href="#intro">Background</a>
+                    </li>
+                    <li>
+                        <a href="#results">Results</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+                
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container -->
+    </nav>
 
-	<h2>Abstract</h2>
-	<p>Blah blah</p>
-	<p>Need visualization</p>
+	<!-- Header -->
+	<a name="main"></a>
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1>Agile Elephants</h1>
+                <p>Exploring the influencing factors relating to the winners of the Oscar's Best Picture award using machine learning.</p>
+                <p>Brooks Lobe, Graham Kelly, Kimiko Farmer, William Menten-Weil</p>
+                <a href="#intro" class="btn btn-primary btn-lg">Read About Our Project</a>
+            </div>
+        </div>
+    </header>
 
-	<h2>Contact</h2>
-	<p>Put contact info for person who will answer the nonexistent questions we will get</p>
+	<!-- Intro Section -->
+	<a name="intro"></a>
+    <section class="intro">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                	<span class="glyphicon glyphicon-star-empty" style="font-size: 60px"></span>
+                    <h2 class="section-heading">What data is most strongly correlated to winning Best Picture?</h2>
+                    <p class="text-light">Given the following factors, which do you think correlate most closely with movies that win the Oscar for Best Picture?</p>
+                </div>
+            </div>
+        </div>
+        
+    	<p>Average Critic Score (Rotten Tomatoes)</p>
+    	<p>Average User Score (Rotten Tomatoes)</p>
+    	<p>Budget</p>
+    	<p>IMBD Rating</span>
+    	<p>Number of IMDB Ratings</p>
+    	<p>Producer</p>
+    	<p>Profit Ratio</p>
+		<p>Total Box Office Sales</p>
+                   
+    </section>
+
+    <a name="results"></a>
+	<!-- Content 1 -->
+    <section class="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <img class="img-responsive img-circle center-block" src="images/matrix.jpg" alt="">
+                </div>
+                <div class="col-sm-6">
+                	<h2 class="section-header">What We Discovered</h2>
+                	<p class="lead text-muted">So far, our machine learning models have yet to produce statistically significant results.  We are in the process of developing upon our methods in order to create some interesting insights!</p>
+                	<p class="lead text-muted">We are also eagerly looking into comparing our algorithmic results against the results of a survey we ran, where we asked participants to perform the same ranking that we are asking of our algorithm.</p>
+                </div>                
+                
+            </div>
+        </div>
+    </section>
+    
+    <a name="contact"></a>
+	<!-- Footer -->
+    <footer class="page-footer">
+    
+    	<!-- Contact Us -->
+        <div class="contact">
+        	<div class="container">
+				<h2 class="section-heading">Contact Us</h2>
+				<p><span class="glyphicon glyphicon-envelope"></span><br> blobe@uw.edu</p>
+        	</div>
+        </div>
+        
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    
+    <!-- Custom Javascript -->
+    <script src="js/custom.js"></script>
 
 </body>
+
 </html>
